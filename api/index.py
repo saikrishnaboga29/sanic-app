@@ -22,7 +22,7 @@ if not os.path.exists(UPLOAD_DIRECTORY):
 @app.route('/hello', methods=['GET'], name='hello')
 async def hello(request):
     logger.debug("Entered the hello route")
-    return json({'message': 'Hello, world!'})
+    return json({'message': 'Hello, Krishna!'})
 
 # Route for POST requests to upload and transcribe audio files
 @app.route('/upload', methods=['POST'], name='upload_file')
