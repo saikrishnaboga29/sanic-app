@@ -3,10 +3,7 @@
     "builds": [
         {
             "src": "api/index.py",
-            "use": "@vercel/python",
-            "config": {
-                "includeFiles": ["install_ffmpeg.sh"]
-            }
+            "use": "@vercel/python"
         }
     ],
     "routes": [
